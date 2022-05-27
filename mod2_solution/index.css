@@ -1,65 +1,56 @@
 * {
   box-sizing: border-box;
-}
-
-h1 {
-  margin-bottom: 15px;
-  text-align: center; 
-}
-.section1 {
-  top:left;
-  color: orange;
-  height: 5px;
-  width: 5px;
-}
-
-#p1 {
-  border: 1px solid black;
-  height: 150px;
-  width: 90%;
-  margin-right: auto;
-  margin-left:auto ;
-  background-color:red;
-  color: white;
-}
-#p2 {
-  border: 1px solid black;
-  height: 150px;
-  width: 90%;
-  margin-right: auto;
-  margin-left:auto ;
-  background-color:red;
-  color: white;
-}
-
-#p3 {
-  border: 1px solid black;
-  height: 150px;
-  width: 90%;
-  margin-right: auto;
-  margin-left:auto ;
-  background-color:red;
-  color: white;
+  margin: 0;
+  padding:0;
 }
 
 .row {
   width: 100%;
 }
 
-@media (min-width: 992px) {
-  # p1 {
-width: 33%;
-  }
+ div {
+  position: relative; 
+  height: 200px;
+ 
+  background-color: rgb(130, 124, 130); 
+} 
+h1 {
+  margin-bottom: 15px;
+  text-align: center; 
+}
 
-  # p2{
-    width 33%
-  }
 
-  #p3 {
-    33%
-  }
-  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
+p {
+    padding: 20px;
+    margin: 10px 10px;
+    border:5px solid rgb(12, 8, 8);
+    background-color:rgb(6, 7, 7);
+    background-position: top right;
     float:left;
+    /* overflow:auto; */
+}
+
+#p1 {
+  color: black;
+  height: 2px;
+  border: 2px solid red;
+}
+#p2 {
+  color:black;
+  height: 2px;
+  border: 1px solid red;
+}
+
+#p3 {
+  color:black;
+  height: 2px;
+  border: 1px solid red;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
+    margin: 2px;
+    float: left;
     border: 1px solid green;
   }
   .col-lg-1 {
@@ -102,18 +93,7 @@ width: 33%;
 }
 
 
-@media (min-width: 768px) and (max-width: 991px ) {
-  # p1 {
-    width: 50%;
-      }
-    
-      # p2{
-        width 50%;
-      }
-    
-      #p3 {
-        100%;
-      }
+@media (min-width: 992px) and (max-width: 1199px ) {
   .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
     float:left;
     border: 1px solid green;
@@ -155,7 +135,7 @@ width: 33%;
     width: 100%;
     }
     
-}
+} 
 
 
 
